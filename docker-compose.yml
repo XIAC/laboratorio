@@ -1,0 +1,6 @@
+lab-nodejs:  
+     build: .  
+     volumes:    
+         - "./lab-node-jenkins:/src/"  
+     ports:    
+         - "8088:3030"
